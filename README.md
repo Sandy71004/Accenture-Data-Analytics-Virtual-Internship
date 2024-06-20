@@ -69,7 +69,7 @@ In short, the client wanted to see **“An analysis of their content categories 
   >- Pie Chart
   >- Bar Chart
   
- - Powerpoint Presentation : [PPT](https://github.com/NagaDurgaJaswanth/accenture-data-analytics-virtual-internship/blob/main/PowerPoint%20presentation.pptx)
+ - Powerpoint Presentation : [PPT](Social Buzz Data Analytics Presentation.pptx)
  
  ## Task - 4
  ### Present to the Client:
