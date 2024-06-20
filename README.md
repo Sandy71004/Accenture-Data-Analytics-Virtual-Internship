@@ -4,6 +4,7 @@ Cleaned, modelled and analyzed 7 datasets to uncover insights into content trend
 Prepared a PowerPoint deck and video presentation to communicate key insights for the client and internal stakeholders.
 # Accenture-Data-Analytics-and-Visualization-Virtual-Internship
 ## Certificate:
+[Certificate Link](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_T5SBsmSZmzLfhjBR3_1718812991565_completion_certificate.pdf)
 
 ## Task - 1
 ### Project Understanding:
