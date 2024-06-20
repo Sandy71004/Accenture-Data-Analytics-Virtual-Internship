@@ -1,0 +1,29 @@
+The model dataset after merging tables is provided in the ModelAnswerFullDataset.csv file.
+Note, that some of the column names have been renamed for ease of understanding.
+This dataset combined three datasets:
+- Reaction
+- Content
+- ReactionTypes
+By reading the brief carefully it states that the client wanted to see “An analysis of their content
+categories showing the top 5 categories with the largest aggregate popularity”.
+This meant that the client wanted to know which categories of their content had yielded the
+greatest popularity out of all their content. But how do we quantify popularity? This was
+explained in the data model.
+Popularity is quantified by the “Score” given to each reaction type, as a numeric value.
+Therefore each reaction gives a weighting to how popular a piece of content may become.
+To find the categories with the greatest popularity, the data analyst must sum up which content
+categories have the largest aggregate Score.
+Note, to achieve the correct answer the data must have been properly cleaned!
+To create the model dataset, you want to start with the Reaction table as your base table. This
+table shows all of the reactions to particular content IDs. To find out the category of these
+pieces of content that have been reacted to, we must merge the Content table to the Reaction
+table using a “left” join and merging on the “Content ID” column. Let’s call this new table “A”.
+Then you must merge the ReactionTypes table to the “A” table. This will allow us to include the
+popularity score of each piece of content based on the reaction type. You can complete this
+merge by merging the ReactionTypes table onto “A” as a “left” join and merging on the column
+which describes the reaction “Type”. Call this final dataset “B”.
+To clean things up and to make your data more understandable, you can change some column
+names and remove unnecessary columns.
+To finally calculate the top 5 categories with respect to popularity, you must group these
+transactions by Category and sum the Score for each Category. After this, sort your data by
+Score in descending order and take the top 5.
