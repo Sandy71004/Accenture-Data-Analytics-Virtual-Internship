@@ -59,7 +59,7 @@ In short, the client wanted to see **“An analysis of their content categories 
  - Top 5 categories
  
  ### Cleaned Data set:
- So, the cleaned data set after data modelling & data cleaning : [Cleaned Dataset](https://github.com/NagaDurgaJaswanth/accenture-data-analytics-virtual-internship/blob/main/Cleaned%20Dataset.xlsx)
+ So, the cleaned data set after data modelling & data cleaning : [Cleaned Dataset](CleanedFile.xlsx)
  
  ## Task - 3
  ### Data Visualization and Storytelling:
