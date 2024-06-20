@@ -47,7 +47,7 @@ In short, the client wanted to see **“An analysis of their content categories 
 
 **End result will be three cleaned data set :**
  - [Reaction Types](https://github.com/NagaDurgaJaswanth/accenture-data-analytics-virtual-internship/blob/main/ReactionTypes.csv)
- - [Reactions](https://github.com/NagaDurgaJaswanth/accenture-data-analytics-virtual-internship/blob/main/Reactions.csv)
+ - [Reactions](Cleanedreactions.xlsx)
  - [Content](https://github.com/Sandy71004/Accenture-Data-Analytics-Virtual-Internship/blob/main/CleanedContent.xlsx)
 
 ### Data Modelling:
