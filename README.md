@@ -60,7 +60,7 @@ In short, the client wanted to see **“An analysis of their content categories 
  
  ### Cleaned Data set:
  So, the cleaned data set after data modelling & data cleaning : [Cleaned Dataset](CleanedFile.xlsx)
- 
+ [Category Popularity](ContentPopularity.jpg)
  ## Task - 3
  ### Data Visualization and Storytelling:
  **Make the Powerpoint presentation as per the given template**
