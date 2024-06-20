@@ -1,0 +1,14 @@
+SELECT * FROM SocialBuzz..reactions$
+
+-- Check for blanks in the ReactionType column
+SELECT
+	COUNT(CASE WHEN [ReactionsType] IS NULL OR [ReactionsType] = '' THEN 1 END) AS [BlankReactionTypeCount]
+FROM SocialBuzz..reactions$;
+
+-- Delete NULLs in the ReactionType column
+DELETE FROM SocialBuzz..reactions$
+WHERE [ReactionsType] IS NULL OR [ReactionsType] = '';
+
+SELECT
+	COUNT(CASE WHEN [ReactionsType] IS NULL OR [ReactionsType] = '' THEN 1 END) AS [BlankReactionTypeCount]
+FROM SocialBuzz..reactions$;
