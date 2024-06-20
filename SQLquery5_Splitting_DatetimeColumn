@@ -1,0 +1,10 @@
+-- Add the Date and Time columns
+ALTER TABLE SocialBuzz..contentcategory
+ADD [Date] DATE, [Time] TIME;
+
+-- Update the Date and Time columns
+UPDATE SocialBuzz..contentcategory
+SET [Date] = CAST([Datetime] AS DATE),
+    [Time] = CAST([Datetime] AS TIME);
+
+ALTER TABLE SocialBuzz..contentcategory DROP COLUMN Datetime;
