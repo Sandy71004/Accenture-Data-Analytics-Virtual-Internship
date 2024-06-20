@@ -21,7 +21,7 @@ Prepared a PowerPoint deck and video presentation to communicate key insights fo
  >- Three requirements that Accenture is tasked to fulfill : Audit of big data practice, recommendations for IPO, analysis of popular content
  
  #### Accenture Project Team :
- <img src = "Project Team.png">
+ [Project Team](https://github.com/Sandy71004/Accenture-Data-Analytics-Virtual-Internship/blob/main/Project_Team.pdf)
  
  #### Task for Data Analyst :
 Analysis of sample data sets with visualizations to understand the popularity of different content categories.
